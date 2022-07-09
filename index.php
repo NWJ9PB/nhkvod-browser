@@ -93,7 +93,10 @@
                     echo '</tbody>';
                     echo '</table>';
                 ?>
-                <p>Powered by PHP</p>
+                <!-- Credits -->
+                <p>Created by NWJ9PB, Source Code is available GitHub</p>
+                <!-- Link to Repo -->
+                <p><a href="https://github.com/NWJ9PB/nhkvod-browser">Source Code</a></p>
                 </div>
             </div>
         </div>

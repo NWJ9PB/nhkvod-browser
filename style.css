@@ -1,0 +1,111 @@
+body {
+    background-color: #003;
+    /* background-image: url("https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=20"); */
+    background-size: cover;
+}
+
+/* Container  */
+.container {
+    width          : 100%;
+    height         : 100%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+.container-fluid {
+    width          : 100%;
+    height         : 100%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.main {
+    color: #fff;
+}
+.main-container {
+    padding: 1.5rem;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+/* codebox, light red background, red text, rounded corners */
+code {
+    background-color: #ffb9b9;
+    color           : #ff3a3a;
+    border-radius   : 0.5rem;
+    padding         : 0.5rem;
+    margin          : 0.5rem;
+    font-family     : 'Open Sans', sans-serif;
+    font-weight     : bold;
+    font-size       : 0.9rem;
+}
+
+h1 {
+    color      : #fff;
+    font-size  : 4em;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    color      : #fff;
+    font-size  : 3em;
+    font-family: 'Open Sans', sans-serif;
+}
+h3 {
+    color      : #fff;
+    font-size  : 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+h4 {
+    color      : #fff;
+    font-size  : 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    color      : #fff;
+    font-size  : 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+span {
+    color      : #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#results {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#results td, #results th {
+    padding: 8px;
+    color: white;
+}
+
+#results tr:nth-child(even){background-color: #016446;}
+#results tr:nth-child(odd){background-color: #178564;}
+
+#results tr:hover {background-color: #50ab90;}
+
+#results th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.resultdata {
+    margin: 1rem;
+    padding-bottom: 2rem;
+}

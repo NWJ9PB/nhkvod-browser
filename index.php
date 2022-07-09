@@ -87,7 +87,12 @@
                             echo '<td>' . $result['description'] . '</td>';
                         }
                         echo '<td><img src="' . $result['thumbnailUrl'] . '" alt="' . $result['thumbnailUrl'] . $result['assetid'] . '" height="100"></td>';
-                        echo '<td><button onclick="copytoclipboard(' . $result['m3u8AndroidURL'] . ')">m3u8 Link</button></td>';
+                        // m3u8AndroidURL Link to the video on a uneditable textbox, if there is a link, display it, otherwise display "No link"
+                        if (strlen($result['m3u8AndroidURL']) == 0) {
+                            echo '<td>No link</td>';
+                        } else {
+                            echo '<td><input type="text" value="' . $result['m3u8AndroidURL'] . '" readonly></td>';
+                        }
                         echo '</tr>';
                     }
                     echo '</tbody>';
